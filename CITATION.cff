@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using these metadata.
+title: RubyGem Build & Release Docker Image
+abstract: A docker container used by https://github.com/ActionsToolbox/gem-build-and-release-action
+type: software
+version: 0.1.0
+date-released: 2024-06-05
+repository-code: https://github.com/ActionsToolbox/gem-build-and-release-docker-image
+keywords:
+  - "Wolf Software"
+  - "Software"
+license: MIT
+authors:
+  - family-names: "Wolf"
+    orcid: "https://orcid.org/0009-0007-0983-2072"
