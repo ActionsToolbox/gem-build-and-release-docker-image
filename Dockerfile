@@ -16,8 +16,11 @@ RUN apk update && \
 		git=2.45.2-r0 \
 		gnupg=2.4.5-r0 \
 		gpg-agent=2.4.5-r0 \
+		openssl=3.3.0-r2 \
+		openssl-dev=3.3.0-r2 \
 		&& \
 	sed -i -e "s/bin\/ash/bin\/bash/" /etc/passwd && \
+	gem update --system && \
 	gem install bundler -v '~> 2.5' && \
 	rm -rf /var/cache/apk/*
 

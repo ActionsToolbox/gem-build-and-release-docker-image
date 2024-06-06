@@ -3,8 +3,8 @@ message: If you use this software, please cite it using these metadata.
 title: RubyGem Build & Release Docker Image
 abstract: A docker container used by https://github.com/ActionsToolbox/gem-build-and-release-action
 type: software
-version: 0.1.0
-date-released: 2024-06-05
+version: 0.1.1
+date-released: 2024-06-06
 repository-code: https://github.com/ActionsToolbox/gem-build-and-release-docker-image
 keywords:
   - "Wolf Software"
